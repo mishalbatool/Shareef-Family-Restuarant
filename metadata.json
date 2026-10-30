@@ -1,0 +1,6 @@
+{
+  "name": "Shareef Family Hotel",
+  "description": "Premium Pakistani family restaurant on Jhang-Chiniot Road, Chiniot, Pakistan. Authentic Karahi, BBQ, Biryani, and private dining.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

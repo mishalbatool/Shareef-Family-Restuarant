@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-deep-charcoal: #191817;
+    --bg-soft-black: #242220;
+    --border-rich-brown: #493326;
+    --color-gold-antique: #C5A15B;
+    --color-cream-warm: #F8F1E5;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    background-color: #191817;
+    color: #F8F1E5;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-serif-luxury {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+
+  .font-emblem {
+    font-family: 'Cinzel', serif;
+  }
+}
+
+/* Custom scrollbar matching dark luxury gold aesthetic */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #191817;
+}
+::-webkit-scrollbar-thumb {
+  background: #493326;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C5A15B;
+}
+
+/* Antique Gold subtle border effect */
+.gold-border {
+  border-color: rgba(197, 161, 91, 0.28);
+}
+.gold-border-glow:hover {
+  border-color: rgba(197, 161, 91, 0.6);
+  box-shadow: 0 10px 25px -5px rgba(197, 161, 91, 0.12);
+}
